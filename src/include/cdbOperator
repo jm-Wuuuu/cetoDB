@@ -1,0 +1,15 @@
+#ifndef CDB_OPERATOR_HPP
+#define CDB_OPERATOR_HPP
+
+namespace cdb
+{
+    class cdbEngine
+    {
+    public:
+    	INT32 createTable( const CHAR* tableName );
+        INT32 insertRecord( const primaryKey, const void *data );
+        INT32 removeRecord( const CHAR* primaryKey,
+    private:
+    };
+}
+#endif
